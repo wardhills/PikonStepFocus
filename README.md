@@ -28,3 +28,8 @@ Note: This project has passed through several iterations.  The condition of the 
     • Pygame 
     • RPi.GPIO 0.6.3
     • RpiMotorLib (https://github.com/gavinlyonsrepo/RpiMotorLib/) 
+
+# TODO
+Describe raspberrypi, A4988 stepper motor control board and power circuit board.
+Overview of the project 
+Add photos to this ReadME
