@@ -5,7 +5,7 @@ This project is a fork of the Pikon telescope by Mark Wrigely at Alternative-Pho
 
 I built one when it was first released and had some good images of the moon from it.  However, I found that the time to focus was about on the same order as the time it took for the moon to move out of view.  Translating the telescope to follow the moon disrupted the focus. 
 
-Motorised focusing would all both speed and consistency.  A quick prototype was constructed using a carriage from a CD player to move the raspberrypi camera. It worked, but suffered in several ways, first the simple dc motor did not move forward and backward symmetrically the telescope tube was in near vertical orientations.  It moves downward more easily than upward.  The second was a lager and more obvious problem.  The camera and carriage assembly was large, blocked light and distorted the image.
+Motorised focusing would address both speed and consistency.  A quick prototype was constructed using a carriage from a CD player to move the raspberrypi camera. It worked, but suffered in several ways, first the simple dc motor did not move forward and backward symmetrically the telescope tube was in near vertical orientations.  It moves downward more easily than upward.  The second was a lager and more obvious problem.  The camera and carriage assembly was large, blocked light and distorted the image.
 
 A stepper motor was chosen for the next iteration.  The spider was redrawn to hold the motor and a slider to hold the camera.  
 
