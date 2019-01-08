@@ -35,7 +35,7 @@ except Exception as E:
     print("Picamera not reachable, continuing with out it")
 
 # ---Hardware configuration-----------------------------------------
-""" if certain items of hardware are not present functions can result i errors """
+""" if certain items of hardware are not present functions can result I errors """
 # TODO add flags to activate a test (with out HW mode) and active mode
 # use error trapping
 
