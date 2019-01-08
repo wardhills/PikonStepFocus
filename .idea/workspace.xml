@@ -4,15 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e77b88-6e26-402c-ac45-86ce4d1d155d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3DPrintedParts/ring_mounts_spider .fcstd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusMeasure/multiple-bright-spots/test_img.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusMeasure/sobel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FocusMeasure/test_img.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TelescpCtrl.py" beforeDir="false" afterPath="$PROJECT_DIR$/TelescpCtrl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ring_mounts_spider .fcstd" beforeDir="false" />
-    </list>
+    <list default="true" id="c7e77b88-6e26-402c-ac45-86ce4d1d155d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,6 +237,14 @@
       <option name="presentableId" value="Default" />
       <updated>1545842948320</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added image processing modules and modified to identify ridge spots and crop around them.  NS: strcuture the new modules as libraries and intergrate in to telescope control. Need code to capture from only part of the Rpi camera sensor based on the area to whcich the initiall image is cropped.">
+      <created>1546981925430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546981925430</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -258,27 +258,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="402" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49638206" visible="true" weight="0.13180363" />
       <window_info id="Favorites" order="1" sideWeight="0.50361794" side_tool="true" visible="true" weight="0.13180363" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.25937834" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.4994664" visible="true" weight="0.25937834" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49973643" weight="0.21007502" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49973643" weight="0.3290461" />
       <window_info anchor="bottom" id="Inspection Results" order="7" sideWeight="0.5819715" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290461" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053364" side_tool="true" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50053364" side_tool="true" visible="true" weight="0.25937834" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4994664" weight="0.3290461" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="3" sideWeight="0.49973643" visible="true" weight="0.18303095" />
+      <window_info anchor="right" id="Run" order="3" sideWeight="0.49973643" visible="true" weight="0.18303095" />
     </layout>
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Added image processing modules and modified to identify ridge spots and crop around them.  NS: strcuture the new modules as libraries and intergrate in to telescope control. Need code to capture from only part of the Rpi camera sensor based on the area to whcich the initiall image is cropped." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added image processing modules and modified to identify ridge spots and crop around them.  NS: strcuture the new modules as libraries and intergrate in to telescope control. Need code to capture from only part of the Rpi camera sensor based on the area to whcich the initiall image is cropped." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/telescp_cntrl_V1.py">
